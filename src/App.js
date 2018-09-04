@@ -15,10 +15,10 @@ class App extends Component {
           </Link>
         </header>
         <div className="navigation">
-          <Link className="link-navigation" to="/test-page">Button 1</Link>
-          <button>Button 2</button>
-          <button>Button 3</button>
-          <button>Button 4</button>
+          <Link className="link-navigation" to="/about">About</Link>
+          <button>Boarding</button>
+          <button>Lessons</button>
+          <button>Contact</button>
         </div>
         {this.props.children}
       </div>

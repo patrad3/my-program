@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const TestPage = () => (
+export const About = () => (
   <div>
     Hi, Im Jordan, and this is Luke. Blah
   </div>
 );
 
-export default TestPage;
+export default About;
