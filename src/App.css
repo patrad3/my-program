@@ -8,16 +8,23 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-image: url('http://www.noia.org/wp-content/uploads/2017/07/Horseback-Riding.jpg');
+  background-position: center top 33%;
+  background-repeat: no-repeat;
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+.App-link {
+  text-decoration: none;
 }
 
 .App-title {
   font-size: 1.5em;
   font-family: arial;
   font-weight: lighter;
+  color: white;
 }
 
 .App-intro {
@@ -26,24 +33,22 @@
   font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .meme {
   width: 500px;
 }
 
-.link-navigation,
-button {
+.link-navigation {
   cursor: pointer;
-  background-color: brown;
+  color: white;
   padding: 10px 50px;
   border: none;
   text-decoration: none;
   border-radius: 5px;
-  background-image: url('http://thepatternlibrary.com/img/d.png');
+  background-image: url('https://images.all-free-download.com/images/graphicthumb/wood_texture_grunge_style_background_vector_579768.jpg');
+}
+
+.link-navigation:visited {
+  color: white;
 }
 
 .navigation {
