@@ -1,7 +1,8 @@
 import React from 'react';
+import './Lessons.css';
 
 export const Lessons = () => (
-  <div>
+  <div className="Lessons">
     Lessons for all ages.
   </div>
 );
